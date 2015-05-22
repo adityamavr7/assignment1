@@ -55,27 +55,36 @@ public final class Order {
         return this.customerId;
     }
     
+    
     public void setCustomerName(String customerName)
     {
         this.customerName=customerName;
         this.setTimeReceived();
     }
     
+    
     public String getCustomerName()
     {
         return this.customerName;
     }
     
+    
+    
     public void setTimeReceived()
     {
         DateFormat formatter=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+        
         this.timeReceived=formatter.format(new Date());
     }
+    
+    
     
     public String getTimeReceived()
     {
         return this.timeReceived;
     }
+    
+    
     
     public void setTimeProcessed()
     {
@@ -83,16 +92,19 @@ public final class Order {
         this.timeProcessed=formatter.format(new Date());
     }
     
+    
     public String getTimeProcessed()
     {
         return this.timeProcessed;
     }
+    
     
     public void setTimeFullFilled()
     {
         DateFormat formatter=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
         this.timeFulfilled=formatter.format(new Date());
     }
+    
     
     public String getTimeFullFilled(){
         return this.timeFulfilled;
@@ -106,6 +118,7 @@ public final class Order {
     {
         return this.productId_quantity;
     }
+    
     
     public void setNotes(String notes)
     {
