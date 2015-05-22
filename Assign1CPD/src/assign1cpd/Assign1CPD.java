@@ -28,7 +28,7 @@ public class Assign1CPD {
         String timeProcessed;
         String timeFulfilled;
         String productId;
-        String quantity;
+        int quantity;
         String notes;
         
         Scanner kb = new Scanner(System.in);
@@ -46,7 +46,7 @@ public class Assign1CPD {
         System.out.println("Enter Customer Product ID");
         productId = kb.next();
         System.out.println("Enter Customer Quantity");
-        quantity = kb.next();
+        quantity = kb.nextInt();
         System.out.println("Enter Customer Notes");
         notes = kb.next();
     
@@ -56,6 +56,9 @@ public class Assign1CPD {
         // TODO code application logic here
         
         userPrompt();
+        
+        Purchase p = new Purchase();
+        
         
     }
     
