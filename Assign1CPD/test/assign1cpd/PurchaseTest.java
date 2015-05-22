@@ -52,20 +52,7 @@ public class PurchaseTest {
         
     }
 
-    /**
-     * Test of setProductId method, of class Purchase.
-     */
-    @Test
-    public void testSetProductId() {
-        System.out.println("setProductId");
-        String productId = "";
-        Purchase instance = new Purchase();
-        instance.setProductId(productId);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
+        /**
      * Test of getQuantity method, of class Purchase.
      */
     @Test
@@ -75,21 +62,6 @@ public class PurchaseTest {
         int expResult = 0;
         int result = instance.getQuantity();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of setQuantity method, of class Purchase.
-     */
-    @Test
-    public void testSetQuantity() {
-        System.out.println("setQuantity");
-        int quantity = 0;
-        Purchase instance = new Purchase();
-        instance.setQuantity(quantity);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
