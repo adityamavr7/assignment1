@@ -38,7 +38,7 @@ public class Purchase {
     }
     
     public String toString() {
-        String str = "\"productId\": " + quantity +", \"quantity\": " + quantity;
+        String str = "\"productId\": " + productId +", \"quantity\": " + quantity;
         return str;
     }
 }
