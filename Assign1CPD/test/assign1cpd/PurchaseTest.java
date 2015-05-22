@@ -45,11 +45,11 @@ public class PurchaseTest {
     public void testGetProductId() {
         System.out.println("getProductId");
         Purchase instance = new Purchase();
-        String expResult = "";
+        instance.setProductId("123");
+        String expResult = "123";
         String result = instance.getProductId();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
